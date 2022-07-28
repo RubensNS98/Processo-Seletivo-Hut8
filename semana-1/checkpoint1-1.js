@@ -13,7 +13,7 @@ const firtScore = 9;
 const secondScore = 7;
 
 //Atribuição da variável da média
-let mediumScore = ((firtScore + secondScore) / 2);
+let mediumScore = (firtScore + secondScore) / 2;
 
 //Impressão dos valores das constantes na tela
 console.log('Nome Completo: ' + name + ' ' + lastName);
