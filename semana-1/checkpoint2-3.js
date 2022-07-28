@@ -6,10 +6,12 @@
 // 3 - Em duas vezes, preço normal de etiqueta sem juros.
 // 4 - Em três vezes, preço normal de etiqueta mais juros de 10%.
 
+//Atribuição das variáveis
 let paymentMethod = "4";
 let productPrice = 100;
 let finalPrice;
 
+//Comparação utilizando o método switch
 switch (paymentMethod) {
   case "1":
     finalPrice = (productPrice - productPrice * 0.1);
